@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="./snake.css">
+    <!-- <link rel="stylesheet" href="./snake.js"> -->
+    <script src="./snake.js" defer> </script>
+</head>
+<body>
+    <h1>snake Game</h1>
+<!--     
+    <div id="frontpage">
+<h1>Welcome</h1>
+    </div> -->
+    <div id="container">
+        <div id="score">Score: <span id="scoreval">0</span><span id="Nameone"></span>
+            <!-- <audio controls id="audioone">
+            <source src="./Shakira - Waka Waka.mp3">
+        </audio> -->
+     </div>
+        <canvas id="gameboard" width="600px" height="400px"></canvas>
+        <div><button id="msg" onclick="start()">Start Game</button>
+            <!-- <button id="msg" onclick="Restart()">Restart</button></div> -->
+        
+    </div>
+    
+    <!-- <script>
+ const gameboard= document.getElementById('gameboard');
+const context=gameboard.getcontext('2d');
+const WIDTH=gameboard.width;
+const HEIGHT=gameboard.height;
+
+
+
+function startGame(){
+    alert("hiii")
+    context.fillStyle='#212121';
+    //fillRect(xstart,ystart,width,height)
+    context.fillRect(0,0,WIDTH,HEIGHT);
+}
+startGame();
+    </script> -->
+</body>
+</html>

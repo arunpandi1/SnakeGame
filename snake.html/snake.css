@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+    background:skyblue;
+   
+}
+h1{
+    color: green;
+    font-size: 40px;
+    padding: 10px;
+}
+#msg{
+    margin-bottom: 15px;
+    border: 1px soild;
+   
+  
+}
+#gameboard{
+    border: 1px soild;
+   
+}
+#score{
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: -470px;
+    justify-content: space-between;
+    /* margin-left: -500px; */
+}
+
+
+button{
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#scoreval{
+   /* margin-right: -300px; */
+    /* color: red;
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    visibility: hidden; */
+}
